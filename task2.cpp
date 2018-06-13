@@ -24,7 +24,7 @@ using namespace std;
 }
    for(int ix = 0; ix < x; ++ix){
      delete [] arr[ix];}
-   delete arr;
+   delete [] arr;
 
 }
 
